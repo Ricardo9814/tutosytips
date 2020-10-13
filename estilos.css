@@ -1,0 +1,54 @@
+
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+header{
+position: relative;
+}
+header nav ul{
+padding: 10px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.barra{
+    background-image: linear-gradient(#e55300 3%, #fca66e 20%, #e55300 50%); 
+    color: white;
+    font-weight: 600;
+}
+.titulo{
+    color: white;
+    text-shadow: 1px 1px 1px grey,-1px -1px 1px grey;
+    font-size: 25px;
+    margin: 0;
+}
+.titulo-logo{
+    padding: 15px 25px 0;
+}
+.redes{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.seccion1 .aside{
+    display: inline-block;
+}
+
+.seccion1{
+    width: 58%;
+}
+.seccion1 .secc1art1 img{
+    width: 98%;
+
+}
+.aside {
+    width: 38%;
+}
+
+/*degradado de la primera barra naranja*/
