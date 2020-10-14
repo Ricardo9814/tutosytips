@@ -8,6 +8,11 @@ body{
 header{
 position: relative;
 }
+header nav {
+    border-radius: 8px;
+    width: 97%;
+    margin: 0 auto;
+}
 header nav ul{
 padding: 10px;
 }
@@ -36,19 +41,35 @@ header nav ul li{
     top: 30px;
     right: 30px;
 }
-.seccion1 .aside{
+.seccion1, .aside{
     display: inline-block;
+    vertical-align: top;
 }
 
 .seccion1{
     width: 58%;
 }
-.seccion1 .secc1art1 img{
-    width: 98%;
-
+.seccion1 .secc1art1{
+    text-align: center;
 }
+
+.seccion1 .secc1art1 img{
+    width: 92%;
+}
+
 .aside {
     width: 38%;
 }
+.secc1art2 h2{
+color: grey;
+font-weight: 900;
+}
 
-/*degradado de la primera barra naranja*/
+.img-post{
+    border: 10px solid #cccccc;
+}
+
+ .secc1art2 .img-post, div{
+    display: inline-block;
+
+}
